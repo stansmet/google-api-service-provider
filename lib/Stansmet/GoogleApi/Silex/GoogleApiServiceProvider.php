@@ -5,7 +5,7 @@ namespace Stansmet\GoogleApi\Silex;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 use GoogleApi\Client;
-use GoogleApi\Auth\AssertionCredentials
+use GoogleApi\Auth\AssertionCredentials;
 
 class GoogleApiServiceProvider implements ServiceProviderInterface
 {
@@ -41,6 +41,6 @@ class GoogleApiServiceProvider implements ServiceProviderInterface
         });
     }
 
-    public function boot(Silex\Application $app)
+    public function boot(Application $app)
     {}
 }
