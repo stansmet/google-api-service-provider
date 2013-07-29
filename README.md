@@ -8,13 +8,13 @@ A Silex Service Provider for Google API Client
 --------------
 
 [Composer](http://getcomposer.org) is currently the only way to install the 
-foursquare client into your project.
+google api client into your project.
 
 ### Create your composer.json file
 
       {
           "require": {
-              "stansmet/google-api-service-provider": "dev-master@dev"
+              "stansmet/google-api-service-provider": "*@dev"
           }
       }
 
