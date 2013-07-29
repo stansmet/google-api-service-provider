@@ -3,7 +3,7 @@
     "description": "Google API Client for the Silex Framework",
     "keywords": ["google", "silex", "api", "gdata"],
     "homepage": "http://smetanin-online.name",
-    "license": "BSD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Stanislaw Smetanin",
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "stansmet/google-api-php-client": "master@dev"
+        "stansmet/google-api-php-client": "*"
     },
     "require-dev": {
         "silex/silex": "1.0.*"
