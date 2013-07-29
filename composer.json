@@ -1,0 +1,26 @@
+{
+    "name": "stansmet/google-api-service-provider",
+    "description": "Google API Client for the Silex Framework",
+    "keywords": ["google", "silex", "api", "gdata"],
+    "homepage": "http://smetanin-online.name",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Stanislaw Smetanin",
+            "email": "stanislaw@smetanin-online.name",
+            "homepage": "http://smetanin-online"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "stansmet/google-api-php-client": "master@dev"
+    },
+    "require-dev": {
+        "silex/silex": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Stansmet\\GoogleApi\\Silex\\": "lib"
+        }
+    }
+}
